@@ -16,7 +16,7 @@ def movie_detail(request, id):
     if request.method == 'GET':
         movie_id = get_object_or_404(models.Movies, id=id)
         context = {'movie_id': movie_id}
-        return render(request, 'book    _detail.html', context=context)
+        return render(request, 'book_detail.html', context=context)
 
 
 
