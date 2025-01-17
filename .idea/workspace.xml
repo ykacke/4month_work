@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77b810dd-e842-49cf-9d68-8a7fc62a08b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/book_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basket/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basket/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hastags/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEEKS_Library/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/GEEKS_Library/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEEKS_Library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GEEKS_Library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEEKS_Library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GEEKS_Library/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,8 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,7 +108,22 @@
       <updated>1736166738760</updated>
       <workItem from="1736166740131" duration="563000" />
       <workItem from="1736169438764" duration="1587000" />
-      <workItem from="1736262778513" duration="8948000" />
+      <workItem from="1736262778513" duration="9709000" />
+      <workItem from="1736422024774" duration="11000" />
+      <workItem from="1736429310166" duration="263000" />
+      <workItem from="1736430381992" duration="23000" />
+      <workItem from="1736430425615" duration="217000" />
+      <workItem from="1736430677301" duration="66000" />
+      <workItem from="1736431066087" duration="97000" />
+      <workItem from="1736431182085" duration="20000" />
+      <workItem from="1736445168527" duration="47000" />
+      <workItem from="1736445251220" duration="172000" />
+      <workItem from="1736445447410" duration="50000" />
+      <workItem from="1736445559993" duration="23000" />
+      <workItem from="1736445625175" duration="1110000" />
+      <workItem from="1736447086143" duration="3593000" />
+      <workItem from="1736754249914" duration="1510000" />
+      <workItem from="1737127513377" duration="697000" />
     </task>
     <servers />
   </component>
