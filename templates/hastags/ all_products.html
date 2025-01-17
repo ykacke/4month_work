@@ -1,0 +1,16 @@
+{% load static %}
+{% include 'components/header.html' %}
+<link rel="stylesheet" href="{% static 'css/book.css' %}">
+<link rel="stylesheet" href="{% static 'css/book.css' %}">
+    {% for i in all_products %}
+    <div class="card">
+        <h1>{{ i.name }}</h1>
+        <p>{{ i.price }}</p>
+    </div>
+    {% endfor %}
+
+<div class="buttons">
+            <button><a href="{% url 'eat_products' %}">Еда</a></button>
+            <button><a href="{% url 'drink_products' %}">Напитки</a></button>
+</div>
+{% include 'components/footer.html' %}

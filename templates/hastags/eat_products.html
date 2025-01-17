@@ -1,0 +1,11 @@
+{% load static %}
+{% include 'components/header.html' %}
+<link rel="stylesheet" href="{% static 'css/hastags.css' %}">
+<link rel="stylesheet" href="{% static 'css/book.css' %}">
+    {% for i in eat_product %}
+    <div class="card">
+        <h1>{{ i.name }}</h1>
+        <p>{{ i.price }}</p>
+    </div>
+    {% endfor %}
+{% include 'components/footer.html' %}
