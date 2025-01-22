@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'GEEKS_Library.wsgi.application'
+WSGI_APPLICATION = 'main.wsgi.application'
 
 
 # Database

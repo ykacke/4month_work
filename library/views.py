@@ -1,7 +1,7 @@
 from datetime import datetime
+from django.forms import forms
 from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
-
 from . import models
 
 
@@ -18,6 +18,20 @@ def movie_detail(request, id):
         context = {'movie_id': movie_id}
         return render(request, 'book_detail.html', context=context)
 
+
+class SearchView(forms.Form):
+    template_name = 'book.html'
+    context_object_name = 'books'
+
+
+
+    def get_queryset(self):
+        return models.Books.objects.filter(title__icontains=self.request.GET.get['q'])
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['q'] = self.request.GET.get('q')
+        return context
 
 
 
