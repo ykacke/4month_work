@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77b810dd-e842-49cf-9d68-8a7fc62a08b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/parser_book/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/apps.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser_book/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser_book/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/tests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser_book/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_book/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/ accounts/register.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/parser/book_detail.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/parser/book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/ middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hashtags/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtags/urls.py" afterDir="false" />
@@ -130,7 +146,7 @@
       <workItem from="1737131784792" duration="641000" />
       <workItem from="1737556741011" duration="1723000" />
       <workItem from="1737562137492" duration="7000" />
-      <workItem from="1737976198287" duration="1227000" />
+      <workItem from="1737976198287" duration="1547000" />
     </task>
     <servers />
   </component>
