@@ -58,7 +58,6 @@ class CheckoutView(LoginRequiredMixin, View):
             phone_number=phone_number
         )
 
-        # Расчет общей стоимости заказа (предположим, что метод существует в модели Order)
         order.calculate_total_price()
 
         return redirect('order_summary', pk=order.pk)
